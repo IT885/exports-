@@ -283,31 +283,56 @@ vLLM 原生僅 CLI 與 API 管理，想實現圖形化需配合 OpenWebUI 或相
 
 ### 对话 5
 
-**问题**: # ls
-data  dev.sh  open_webui  requirements.txt  start.sh  start_windows.bat
-# start.sh
-/bin/sh: 2: start.sh: not found
-# bash start.sh
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-WARNI [open_webui.env] 
-
-WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
-
-INFO  [open_webui.env] VECTOR_DB: chroma
-INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
-WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
-
- ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
-██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
-██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
-██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
-╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
- ��═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
-
-
-v0.6.32 - building the best AI user interface.
-
+**问题**: # ls
+
+data  dev.sh  open_webui  requirements.txt  start.sh  start_windows.bat
+
+# start.sh
+
+/bin/sh: 2: start.sh: not found
+
+# bash start.sh
+
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+
+WARNI [open_webui.env] 
+
+
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+
+
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+
+ ��═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+
+
+
+v0.6.32 - building the best AI user interface.
+
+
+
 [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
 
 **回答**:
